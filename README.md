@@ -1,70 +1,141 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="link-de-la-app">
+    <img src="https://res.cloudinary.com/dtpfo51rx/image/upload/v1669562382/swoosh/logos/logo_oqhbhu.png" alt="Logo" width="100" height="100">
+  </a>
 
-In the project directory, you can run:
+  <h1 align="center">Swoosh - Vintage store</h1>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ABOUT THE PROJECT -->
+[![Product Name Screen Shot][product-screenshot]](https://swoosh-ecommerce.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Acerca del proyecto
 
-### `npm test`
+Hola coders! , mi nombre es Michael Alvarez soy Desarrolador Web y quiero presentarles esta aplicacion de e-commerce que realize como proyecto final para el curso de ReactJS en la plataforma Coderhouse.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se trata de una aplicacion de venta de ropa estilo vintage / retro que tiene entre los años 1980 y 2000.
 
-### `npm run build`
+El formato de la pagina sigue el principio de una SPA(Single Page Application) permitiendo navegar entre las diferentes secciones de forma consistente y fluida.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El diseño / maquetacion de la misma son propios, estos mismos fueron desarrollados por mi de principio a fin.:smile:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Realizado con
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Esta es una lista de las tecnologias que utilize para realizar el proyecto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [![React][React.js]][React-url]
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+* ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
+## Cómo comenzar
 
-### Code Splitting
+A continuacion se datallara una lista de dependecias y/o requisitos para poder comenzar a utilizar este proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Requisitos minimos
 
-### Analyzing the Bundle Size
+Debera tener previamente instalado:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Git
+* Node.js - LTS
+* Terminal preferida
 
-### Making a Progressive Web App
+### Instalación
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+_Los pasos a seguir para realizar la instalacion correcta del proyecto._
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/michaelv-alvarez/swoosh-ecommerce.git
+   ```
+2. Navegar a la ruta del proyecto
+    ```sh
+   cd swoosh-ecommerce
+   ```
+3. Ubicado en la ruta del proyecto
+   ```sh
+   npm install
+   ```
+4. Ejecutar el siguiente comando
+   ```sh
+   npm start
+   ```
+5. La aplicacion estara lista en el navegador en http://localhost:3000
 
-### Deployment
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<!-- USAGE EXAMPLES -->
+## Usabilidad
+* Haciendo click sobre la imagen te redireccionara a un pequeño video demo de la aplicacion.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Funcionamiento de la aplicacion](https://res.cloudinary.com/dtpfo51rx/image/upload/v1669595147/swoosh/screenshots/miniatura_uikpmb.png)](https://www.youtube.com/watch?v=LTHNZ8RZipU)
+
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
+
+<!-- CONTACT -->
+## Contacto
+
+Linkedin - [https://www.linkedin.com/in/michael-alvarez-7b0539242/](https://www.linkedin.com/in/michael-alvarez-7b0539242/)
+
+Github - [https://github.com/michaelv-alvarez](https://github.com/michaelv-alvarez)
+
+Link del repositorio: [https://github.com/michaelv-alvarez/swoosh-ecommerce](https://github.com/michaelv-alvarez/swoosh-ecommerce)
+
+Link de la app: [https://swoosh-ecommerce.vercel.app/](https://swoosh-ecommerce.vercel.app/)
+
+Instagram - [https://www.instagram.com/micha.alvz/](https://www.instagram.com/micha.alvz/)
+
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Agradecimientos
+
+
+* [Formik](https://formik.org/)
+* [Yup](https://github.com/jquense/yup)
+* [Sweet Alert 2](https://sweetalert2.github.io/)
+* [Img Shields](https://shields.io)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: https://res.cloudinary.com/dtpfo51rx/image/upload/v1669582969/swoosh/screenshots/React-App_z2omys.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+
